@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+
+.hero{
+    position: absolute;
+    z-index: 1; 
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    /* background: linear-gradient(to bottom, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0)); */
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #f0f0f0;
+}
+
+.hero-area {
+    position: relative;
+    overflow: hidden;
+    background: url('../images/tropical-luxury-resort-maldives-acenda.webp') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+
+
+
