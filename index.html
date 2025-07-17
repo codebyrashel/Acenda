@@ -55,58 +55,68 @@
     <header class="hero">
         <nav class="navbar">
             <div class="logo">ACENDA</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <div class="nav-item">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="hero-area">
-            <!-- <img src="./assets/images/tropical-luxury-resort-maldives-acenda.webp"
-                alt="Overwater villas at a tropical luxury resort in the Maldives - ACENDA travel" class="hero-bg" />
-            <div class="hero-content">
-                <h1>Your Dream Vacation Awaits</h1>
-                <p>Experience luxury like never before in the Maldives.</p>
-            </div> -->
+            
         </section>
     </main>
 
     <!-- HERO SECTION -->
-    <section id="hero">
-        <!-- This is your main call-to-action section -->
-        <h2>Your Journey Begins Here</h2>
-        <p>
-            Discover breathtaking destinations, exclusive deals, and seamless
-            booking.
-        </p>
-        <a href="#destinations">Explore Now</a>
+    <section id="hero" class="search-section">
+        <div class="search-header">
+                <h1>Good Morning!</h1>
+                <p>
+                    Explore beautiful places in the world with <strong>Acenda</strong>
+                </p>
+            </div>
+
+            <form class="search-form" action="#" method="GET" role="search">
+                <div class="form-group">
+                    <label for="location"><i class="fas fa-location-dot"></i> Location</label>
+                    <input type="text" id="location" name="location" placeholder="Add destination" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="checkin"><i class="fas fa-calendar-check"></i> Check in</label>
+                    <input type="date" id="checkin" name="checkin" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="checkout"><i class="fas fa-calendar-day"></i> Check out</label>
+                    <input type="date" id="checkout" name="checkout" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="guests"><i class="fas fa-user-group"></i> Guests</label>
+                    <input type="number" id="guests" name="guests" placeholder="Add guests" min="1" required />
+                </div>
+
+                <button type="submit" class="search-btn" aria-label="Search">
+                    <i class="fas fa-magnifying-glass"></i>
+                </button>
+            </form>
     </section>
 
     <!-- FEATURED DESTINATIONS SECTION -->
-    <section id="destinations">
-        <h3>Top Destinations</h3>
-        <!-- Add cards or images of locations -->
-    </section>
+    <section id="destinations"></section>
 
     <!-- ABOUT SECTION -->
-    <section id="about">
-        <h3>About ACENDA</h3>
-        <p>
-            ACENDA is your trusted travel companion, connecting you to adventures
-            around the globe.
-        </p>
-    </section>
+    <section id="about"></section>
 
     <!-- CONTACT / FOOTER SECTION -->
-    <footer>
-        <p>&copy; 2025 ACENDA. All rights reserved.</p>
-        <!-- Add social media links if needed -->
-    </footer>
+    <footer></footer>
 </body>
 
 </html>
