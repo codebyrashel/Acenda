@@ -69,44 +69,65 @@
 
     <main>
         <section class="hero-area">
-            
+
         </section>
     </main>
 
     <!-- HERO SECTION -->
     <section id="hero" class="search-section">
         <div class="search-header">
-                <h1>Good Morning!</h1>
-                <p>
-                    Explore beautiful places in the world with <strong>Acenda</strong>
-                </p>
+            <h1>Good Morning!</h1>
+            <p>
+                Explore beautiful places in the world with <strong>Acenda</strong>
+            </p>
+        </div>
+
+        <form class="form-ui" action="#" method="GET" role="search" aria-label="Search travel options">
+            <div class="input-block">
+                <div class="icon">
+                    <!-- Replace with your SVG -->
+                    <img src="./assets/images/location.svg" alt="Location icon" />
+                </div>
+                <div class="text">
+                    <span class="label">Location</span>
+                    <span class="placeholder">Add destination</span>
+                </div>
             </div>
 
-            <form class="search-form" action="#" method="GET" role="search">
-                <div class="form-group">
-                    <label for="location"><i class="fas fa-location-dot"></i> Location</label>
-                    <input type="text" id="location" name="location" placeholder="Add destination" required />
+            <div class="input-block">
+                <div class="icon">
+                    <img src="./assets/images/calendar.svg" alt="Check-in icon" />
                 </div>
-
-                <div class="form-group">
-                    <label for="checkin"><i class="fas fa-calendar-check"></i> Check in</label>
-                    <input type="date" id="checkin" name="checkin" required />
-                </div>
-
-                <div class="form-group">
-                    <label for="checkout"><i class="fas fa-calendar-day"></i> Check out</label>
-                    <input type="date" id="checkout" name="checkout" required />
-                </div>
-
-                <div class="form-group">
+                <div class="text">
                     <label for="guests"><i class="fas fa-user-group"></i> Guests</label>
-                    <input type="number" id="guests" name="guests" placeholder="Add guests" min="1" required />
+                    <input type="number" id="guests" name="guests" placeholder="Add guests" min="1" required>
                 </div>
+            </div>
 
-                <button type="submit" class="search-btn" aria-label="Search">
-                    <i class="fas fa-magnifying-glass"></i>
-                </button>
-            </form>
+            <div class="input-block">
+                <div class="icon">
+                    <img src="./assets/images/calendar.svg" alt="Check-out icon" />
+                </div>
+                <div class="text">
+                    <span class="label">Check out</span>
+                    <span class="placeholder">Add dates</span>
+                </div>
+            </div>
+
+            <div class="input-block">
+                <div class="icon">
+                    <img src="./assets/images/profile-2user.svg" alt="Guests icon" />
+                </div>
+                <div class="text">
+                    <span class="label">Guests</span>
+                    <span class="placeholder">Add guests</span>
+                </div>
+            </div>
+
+            <button type="submit" class="search-btn" aria-label="Search">
+                <img src="./assets/images/search-normal.svg" alt="Search icon" />
+            </button>
+        </form>
     </section>
 
     <!-- FEATURED DESTINATIONS SECTION -->
