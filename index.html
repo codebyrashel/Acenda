@@ -71,74 +71,103 @@
         <section class="hero-area">
 
         </section>
+
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="search-section">
+            <div class="search-header">
+                <h1>Good Morning!</h1>
+                <p>
+                    Explore beautiful places in the world with <strong>Acenda</strong>
+                </p>
+            </div>
+            <form class="form-ui" action="#" method="GET" role="search" aria-label="Search travel options">
+
+                <!-- Location -->
+                <div class="input-block">
+                    <div class="icon">
+                        <img src="./assets/images/location.svg" alt="Location icon" />
+                    </div>
+                    <div class="text">
+                        <label for="location" class="label">Location</label>
+                        <input type="text" id="location" name="location" class="input-field"
+                            placeholder="Add destination" required>
+                    </div>
+                </div>
+
+                <!-- Check-in -->
+                <div class="input-block">
+                    <div class="icon">
+                        <img src="./assets/images/calendar.svg" alt="Check-in icon" />
+                    </div>
+                    <div class="text">
+                        <label for="checkin" class="label">Check in</label>
+                        <input type="date" id="checkin" name="checkin" class="input-field" required>
+                    </div>
+                </div>
+
+                <!-- Check-out -->
+                <div class="input-block">
+                    <div class="icon">
+                        <img src="./assets/images/calendar.svg" alt="Check-out icon" />
+                    </div>
+                    <div class="text">
+                        <label for="checkout" class="label">Check out</label>
+                        <input type="date" id="checkout" name="checkout" class="input-field" required>
+                    </div>
+                </div>
+
+                <!-- Guests -->
+                <div class="input-block">
+                    <div class="icon">
+                        <img src="./assets/images/profile-2user.svg" alt="Guests icon" />
+                    </div>
+                    <div class="text">
+                        <label for="guests" class="label">Guests</label>
+                        <input type="number" id="guests" name="guests" class="input-field" placeholder="Add guests"
+                            min="1" required>
+                    </div>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="search-btn" aria-label="Search">
+                    <img src="./assets/images/search-normal.svg" alt="Search icon" />
+                </button>
+            </form>
+        </section>
+
+        <!-- FEATURED DESTINATIONS SECTION -->
+        <section id="destinations" class="why-choose">
+            <h1>WHY CHOOSE US?</h1>
+            <div class="card-container">
+                <div class="card"><img src="./assets/images/dollar-circle.svg" alt="price">
+                    <div class="card-content">
+                        <span>Competitive
+                            prices</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="card"><img src="./assets/images/security-user.svg" alt="security">
+                    <div class="card-content">
+                        <span>Secure
+                            Booking</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="card"><img src="./assets/images/refresh-right-square.svg" alt="refresh">
+                    <div class="card-content">
+                        <span>Seamless
+                            Experience</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about"></section>
+
     </main>
-
-    <!-- HERO SECTION -->
-    <section id="hero" class="search-section">
-        <div class="search-header">
-            <h1>Good Morning!</h1>
-            <p>
-                Explore beautiful places in the world with <strong>Acenda</strong>
-            </p>
-        </div>
-<form class="form-ui" action="#" method="GET" role="search" aria-label="Search travel options">
-    
-    <!-- Location -->
-    <div class="input-block">
-        <div class="icon">
-            <img src="./assets/images/location.svg" alt="Location icon" />
-        </div>
-        <div class="text">
-            <label for="location" class="label">Location</label>
-            <input type="text" id="location" name="location" class="input-field" placeholder="Add destination" required>
-        </div>
-    </div>
-
-    <!-- Check-in -->
-    <div class="input-block">
-        <div class="icon">
-            <img src="./assets/images/calendar.svg" alt="Check-in icon" />
-        </div>
-        <div class="text">
-            <label for="checkin" class="label">Check in</label>
-            <input type="date" id="checkin" name="checkin" class="input-field" required>
-        </div>
-    </div>
-
-    <!-- Check-out -->
-    <div class="input-block">
-        <div class="icon">
-            <img src="./assets/images/calendar.svg" alt="Check-out icon" />
-        </div>
-        <div class="text">
-            <label for="checkout" class="label">Check out</label>
-            <input type="date" id="checkout" name="checkout" class="input-field" required>
-        </div>
-    </div>
-
-    <!-- Guests -->
-    <div class="input-block">
-        <div class="icon">
-            <img src="./assets/images/profile-2user.svg" alt="Guests icon" />
-        </div>
-        <div class="text">
-            <label for="guests" class="label">Guests</label>
-            <input type="number" id="guests" name="guests" class="input-field" placeholder="Add guests" min="1" required>
-        </div>
-    </div>
-
-    <!-- Submit -->
-    <button type="submit" class="search-btn" aria-label="Search">
-        <img src="./assets/images/search-normal.svg" alt="Search icon" />
-    </button>
-</form>
-    </section>
-
-    <!-- FEATURED DESTINATIONS SECTION -->
-    <section id="destinations"></section>
-
-    <!-- ABOUT SECTION -->
-    <section id="about"></section>
 
     <!-- CONTACT / FOOTER SECTION -->
     <footer></footer>
